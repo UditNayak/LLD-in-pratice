@@ -1,0 +1,19 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# IDEs / Editors
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Build outputs
+target/
+build/
+out/
