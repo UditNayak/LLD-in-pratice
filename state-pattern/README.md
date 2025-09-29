@@ -1,6 +1,40 @@
 # State Pattern
 **The State Pattern** allows an object to change its behavior when its internal state changes. The object will appear to change its class.
 
+## State Pattern UML
+![State Pattern UML](https://drive.google.com/uc?export=view&id=1Q37_j2HuoCDiO6FvVSb90EOxQq1NSkQh)
+
+## Real Life Analogy
+
+#### Example1: Vending Machine / Gumball Machine
+- **States**: No Coin, Has Coin, Sold, Sold Out
+- Behavior changes based on state:
+  - If no coin, it won't dispense.
+  - If has coin, it waits for the crank to be turned.
+  - If sold, it dispenses the gumball.
+  - If sold out, it rejects the coin.
+
+#### Example2: Traffic Light System
+- **States**: Red, Green, Yellow
+- Behavior changes based on state:
+  - Red means stop.
+  - Green means go.
+  - Yellow means slow down or prepare to stop.
+
+#### Example3: ATM Machine
+- **States**: No Card, Has Card, Authenticated, Out of Service
+- Behavior changes based on state:
+    - If no card, it won't accept any operations.
+    - If has card, it waits for PIN entry.
+    - If authenticated, it allows transactions.
+    - If out of service, it rejects all operations.
+
+#### Example4: Media Player
+- **States**: Playing, Paused, Stopped
+- Behavior changes based on state:
+    - If playing, it plays the media.
+    - If paused, it stops playback but retains the position.
+    - If stopped, it resets the position to the beginning.
 
 ## Pre-Requisites
 
