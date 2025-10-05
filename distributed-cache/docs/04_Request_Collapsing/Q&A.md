@@ -1,0 +1,13 @@
+- What is ConcurrentHashMap in Java and how does it differ from HashMap?
+- What is CompletableFuture in Java and how is it used for asynchronous programming?
+    - Alternatively, explain the concept of Futures and Promises in asynchronous programming.
+    - What the difference between Future & CompletableFuture?
+    - Is this Similar to Promise in JavaScript
+- Future and CompletableFuture in Java
+    - .join()
+    - .completedFuture()
+    - .supplyAsync()
+    - .whenComplete()
+    - .thenAccept()
+    - .thenApply()
+    - .exceptionally()
