@@ -1,0 +1,23 @@
+- Define Cache
+- Define Distributed Cache
+- What is the difference between Cache and Database?
+- What are the different types of Writing Strategies in Cache?
+    - Write Through
+    - Write Back
+    - Write Around
+- What are the different types of Reading Strategies in Cache?
+    - Cache Aside
+    - Read Through
+    - Write Through
+- What is Cache Eviction?
+- What are the different types of Cache Eviction Policies?
+    - LRU (Least Recently Used)
+    - LFU (Least Frequently Used)
+    - FIFO (First In First Out)
+    - LIFO
+- What is Consistent Hashing?
+- What are the different types of Distribution Strategies?
+- What is TTL (Time to Live) in Cache?
+- What is Request Collapsing?
+- What is Prefetching?
+- What is Locality of Reference?
